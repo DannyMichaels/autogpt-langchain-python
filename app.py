@@ -14,9 +14,7 @@ st.title("LangChain, GPT creator")
 prompt = st.text_input("Plug in your prompt here")
 
 #  llms (large language model): https://en.wikipedia.org/wiki/Large_language_model
-llm = OpenAI(
-    temperature=0.9
-)
+llm = OpenAI(temperature=0.9)
 
 # show stuff to the screen if prompt provided.
 if prompt:
